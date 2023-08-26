@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!------------------------------------google fontes-------------------------------------->
+			<link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+
+            <!------------------------------------Font Awesome-------------------------------------->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+
+    </head>
+<body>
+    <header class = "cabecalho">
+        <div><h1 class = "loja">Loja ABC</h1>
+            <p>Olá Edmilson!</p>
+        </div>
+        <button class = "btn-menu" ><i class="fa-solid fa-bars"></i></button>
+
+        <nav id = "menu" class = "hide-menu">
+            <button class = "btn-close" ><i class="fa-sharp fa-regular fa-circle-xmark"></i></button>
+            <ul>
+                <a href=""><li><i class="fa-sharp fa-regular fa-dollar-sign"></i>USD</li></a>
+                <a href=""><li>Moçambique</li></a>
+                <a href=""><li>Português</li></a>
+                <a href=""><li><i class="fa-sharp fa-regular fa-circle-question"></i>Ajuda e feedback</li></a>
+                <a href=""><li><i class="fa-sharp fa-regular fa-user"></i>Usuário</li></a>
+
+            </ul>
+        </nav>
+    
+    </header>
+    <section class = "pesquisar">
+        <input type="search" class = "pesquisar-produto" placeholder="Estou procurando por ..." maxlength="50">
+        <i class="icon fa fa-search"></i>
+        
+    </section>
+        <section class = "produtos" >
+            <ul class = "produto">
+                <li><div id = "btn-comprar" class = "hide-btn"><button class = "btn" >Comprar</button></div><div class = "descricao"><img src="img/p1.png" alt=""><h3>Web cam</h3><h4 class = "detalhes">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4><h5><del>100.00Mts</del></h5></div></li>
+                <li><div id = "btn-comprar" class = "hide-btn"><button class = "btn" >Comprar</button></div><div class = "descricao"><img src="img/p2.png" alt=""><h3>Mouse</h3><h4 class = "detalhes">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4><h5>100.00 Mts</h5></div></li>
+                <li><div id = "btn-comprar" class = "hide-btn"><button class = "btn" >Comprar</button></div><div class = "descricao"><img src="img/p3.png" alt=""><h3>Computador HP</h3><h4 class = "detalhes">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4><h5>100.00 Mts</h5></div></li>
+                <li><div id = "btn-comprar" class = "hide-btn"><button class = "btn" >Comprar</button></div><div class = "descricao"><img src="img/p4.png" alt=""><h3>Auriculares</h3><h4 class = "detalhes">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4><h5>100.00 Mts</h5></div></li>
+                <li><div id = "btn-comprar" class = "hide-btn"><button class = "btn" >Comprar</button></div><div class = "descricao"><img src="img/p5.png" alt=""><h3>Câmera profissional</h3><h4 class = "detalhes">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4><h5>100.00 Mts</h5></div></li>
+                <li><div id = "btn-comprar" class = "hide-btn"><button class = "btn" >Comprar</button></div><div class = "descricao"><img src="img/p1.png" alt=""><h3>Web cam</h3><h4 class = "detalhes">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4><h5>100.00Mts</h5></div></li>
+        </ul>
+        </section>
+   
+    <footer class = "rodape">
+
+        <div class = "social">
+            <div>
+            <a href = ""><i class = "fab fa-facebook"></i></a>
+            <a href = ""><i class = "fab fa-instagram"></i></a>
+            <a href = ""><i class = "fas fa-envelope"></i></a>
+            </div>
+    
+
+            <p class = copyright> copyright <a href="">Edmilson </a>2023. Todos direitos reservados
+</p>
+        </div>
+    </footer>
+
+    <script src = "style.js"></script>
+</body>
+</html>
